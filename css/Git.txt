@@ -1,0 +1,33 @@
+リモートリポジトリのアドレ
+newtab create create a repository
+
+植田用のgit
+username: nanacyannel
+Email: ueda.contenna@gmail.com
+Password: nanaho728
+
+Gitの植田用リポジトリ
+リポジトリ名 nanahostudy
+
+HTTPS https://github.com/nanacyannel/nanahostudy.git
+SSH git@github.com:nanacyannel/nanahostudy.git
+
+--------------------------------------------------------
+…or create a new repository on the command line
+echo "# nanahostudy" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:nanacyannel/nanahostudy.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin git@github.com:nanacyannel/nanahostudy.git
+git push -u origin master
+--------------------------------------------------------
+
+リモート名　URL
+
+流れ纏め
+
+コミットとプッシュは違うし、プッシュしないとGitには反映されない！！
+初プッシュ時にGitのパスとか聞かれる
